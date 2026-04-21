@@ -1,0 +1,24 @@
+/* button.css */
+button {
+  height: 34px;
+  padding: 0 16px;
+  background-color: #7d3c98;
+  border: 2px solid #f39c12;
+  color: #f39c12;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px #c0392b;
+  transition: all 150ms ease;
+}
+
+button:hover {
+  background-color: #c0392b;
+  border-color: #f0e68c;
+  color: #f0e68c;
+  transform: translate(-2px, -2px) rotate(-1deg);
+  box-shadow: 5px 5px 0px #4a235a;
+}
