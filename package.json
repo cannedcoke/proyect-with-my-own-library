@@ -1,0 +1,28 @@
+{
+  "name": "proyect-with-my-own-library",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "parcel index.html --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cannedcoke/proyect-with-my-own-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cannedcoke/proyect-with-my-own-library/issues"
+  },
+  "homepage": "https://github.com/cannedcoke/proyect-with-my-own-library#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.28.6",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "cyanide": "file:../cyanide"
+  }
+}
