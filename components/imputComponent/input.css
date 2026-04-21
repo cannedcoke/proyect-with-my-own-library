@@ -1,0 +1,35 @@
+/* input.css */
+#inputContainer {
+  background: #7d3c98;
+  display: flex;
+  padding: 15px;
+  gap: 5px;
+  border: 3px dashed #f39c12;
+  box-shadow: inset 4px 4px 0px #4a235a;
+  transform: rotate(0.2deg);
+  margin-bottom: 20px;
+}
+
+label {
+  color: #f39c12;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+input {
+  background-color: #f0e68c;
+  border: 3px solid #c0392b;
+  color: #4a235a;
+  font-size: 16px;
+  padding: 4px 8px;
+  font-family: inherit;
+  flex: 1;
+}
+
+input:focus {
+  outline: none;
+  border-color: #7d3c98;
+  background-color: #fff8dc;
+}
